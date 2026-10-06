@@ -54,24 +54,7 @@ A full variable list is in [`docs/data_dictionary.md`](docs/data_dictionary.md).
 ### 4. Train/test design
 - **Temporal split** to respect the time ordering of the tour: training on 2000 to 2019, testing on 2020 to 2024.
 
-## Getting started
 
-> Instructions will be finalised once the code and data are released.
-
-```bash
-git clone https://github.com/<your-username>/<repo-name>.git
-cd <repo-name>
-
-# Python
-python -m venv .venv
-source .venv/bin/activate          # Windows: .venv\Scripts\activate
-pip install -r environment/requirements.txt
-
-# R (from an R session)
-# install.packages("renv"); renv::restore()
-```
-
-Place the source data in `data/raw/` (see [`data/README.md`](data/README.md)), then run the scripts in `R/` and `python/` in the numbered order.
 
 ## Tools
 
@@ -85,7 +68,7 @@ Ethical clearance was granted by the University of Cape Town Faculty Research Et
 
 ## Data and code attribution
 
-- Match data: J. Sackmann, *tennis_atp* (2025). Please check and comply with the licence terms of the upstream repository.
+- Match data: J. Sackmann, *tennis_atp* (2025). 
 - Elo rating code: adapted from Skoval (2025).
 
 ## Citation
@@ -98,9 +81,6 @@ Tennis Tournament Prediction and Ranking Optimisation.
 MSc thesis (in progress), University of Cape Town.
 ```
 
-## Licence
-
-Code: choose a licence (for example MIT). Data remains subject to its original source licence.
 
 ## Contact
 
