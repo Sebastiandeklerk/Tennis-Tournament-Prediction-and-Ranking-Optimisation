@@ -19,21 +19,6 @@ To formulate, implement and validate an integrated ML and OR optimisation-based 
 
 The optimisation is formulated as a **Mixed-Integer Linear Program (MILP)** with **binary decision variables** representing the sequence of tournaments selected.
 
-## Project status
-
-| Phase | Status |
-|---|---|
-| Ethical clearance (UCT Faculty Research Ethics Committee, PSQ outcome) | Done |
-| Data collection and filtering | Done |
-| Missing-data analysis | Done |
-| Descriptive statistics and correlation analysis | Done |
-| Feature engineering (Elo, relative differences, rates) | Done |
-| Feature selection (Lasso, Random Forest importance) | In progress |
-| Data-leakage mitigation (rolling averages, r5 and r20) | In progress |
-| ML match-outcome models | Planned |
-| Tournament-outcome prediction | Planned |
-| MILP tournament-selection model | Planned |
-| Validation and sensitivity analysis | Planned |
 
 ## Data
 
