@@ -69,27 +69,6 @@ A full variable list is in [`docs/data_dictionary.md`](docs/data_dictionary.md).
 ### 4. Train/test design
 - **Temporal split** to respect the time ordering of the tour: training on 2000 to 2019, testing on 2020 to 2024.
 
-## Repository structure
-
-```
-.
-├── README.md
-├── LICENSE
-├── .gitignore
-├── CITATION.cff               # (to add)
-├── data/
-│   └── README.md              # data sources and access; raw data not committed
-├── docs/
-│   ├── data_dictionary.md     # all variables, raw and engineered
-│   ├── methodology.md         # methods summary
-│   └── figures/               # exported EDA and importance plots
-├── R/                         # R scripts (EDA, Lasso, Random Forest)
-├── python/                    # Python scripts (ML models, MILP)
-├── notebooks/                 # exploratory notebooks
-├── results/                   # tables and model outputs
-└── environment/               # renv.lock, requirements.txt
-```
-
 ## Getting started
 
 > Instructions will be finalised once the code and data are released.
@@ -114,19 +93,6 @@ Place the source data in `data/raw/` (see [`data/README.md`](data/README.md)), t
 - **R / RStudio:** data cleaning, EDA, correlation analysis, Lasso, Random Forest variable importance.
 - **Python:** machine learning models and MILP optimisation.
 
-## Roadmap
-
-- [x] Ethics clearance and data collection
-- [x] EDA and missing-data analysis
-- [x] Feature engineering (Elo, relative differences)
-- [ ] Finalise feature selection (Lasso and Random Forest)
-- [ ] Compare r5 / r20 rolling-average feature sets
-- [ ] Fit and tune ML models (rank cutoff at 250)
-- [ ] Predict tournament outcomes and expected ranking points
-- [ ] Formulate and solve the MILP for tournament selection
-- [ ] Validate and run sensitivity analysis
-- [ ] Extend to WTA data
-- [ ] Release data and reproducible pipeline
 
 ## Ethics
 
